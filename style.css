@@ -1,7 +1,10 @@
-body {
-    background-image: url("https://www.geek.com/wp-content/uploads/2016/04/craziest-things-done-in-mario-625x350.jpg");
+.mario {
+    background-image: url("https://wallpaperscraft.com/image/super_mario_galaxy_mario_dinosaur_yellow_yoshi_2238_1920x1080.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    
+   
 }
 
 .head {
@@ -23,7 +26,8 @@ body {
     font-size: 45px;
     font-family: 'Luckiest Guy', cursive;
     float: right;
-    padding-right: 230px
+    padding-right: 60px;
+    padding-left: 50px;
 }
 
 .section {
@@ -45,7 +49,7 @@ body {
 }
 
 .foot {
-    color: red;
+    color: gold;
     font-family: 'Luckiest Guy', cursive;
     font-size: 19px
 }
@@ -64,6 +68,7 @@ body {
     padding-bottom: 30px;
     padding-left: 30px;
 }
+
 .coin2 {
     display: inline;
     width: 80px;
@@ -82,18 +87,32 @@ body {
     margin-top: 10px;
 }
 
-.money{
+.money {
     color: gold;
     font-size: 70px;
     font-family: 'Luckiest Guy', cursive;
     padding-top: 30px
 }
 
+.money1 {
+    color: gold;
+    font-size: 70px;
+    font-family: 'Luckiest Guy', cursive;
+    float: right;
+}
+
 .btn-danger {
     font-family: 'Luckiest Guy', cursive;
 }
+
 .grand {
     float: right;
     margin-right: 20px;
     margin-top: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    mario{
+        background-color: cyan;
+    }
 }
